@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meta Player Studio</title>
+  <meta name="description" content="Meta Player Studio створює landing pages для малого та середнього бізнесу: структура, тексти, дизайн і запуск. Кожен блок має задачу, кожна задача веде до заявки.">
+  <meta name="theme-color" content="#F3F1EC">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Meta Player Studio — лендинги для бізнесу">
+  <meta property="og:description" content="Клієнт вирішує, чи залишитися, ще до того, як дочитає. Ми проєктуємо цей момент.">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- 00 · Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <svg class="logo__mark" width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <rect x="1" y="1" width="24" height="24"/><path d="M1 9h24M9 9v16"/>
+        </svg>
+        <span class="logo__text">Meta Player Studio</span>
+      </a>
+
+      <nav class="nav" aria-label="Основна навігація">
+        <a href="#anatomy">Підхід</a>
+        <a href="#process">Процес</a>
+        <a href="#works">Роботи</a>
+        <a href="#faq">Питання</a>
+      </nav>
+
+      <div class="header__actions">
+        <button type="button" class="logic-toggle" data-logic-toggle aria-pressed="false">
+          <span class="logic-toggle__switch" aria-hidden="true"><span class="logic-toggle__knob"></span></span>
+          <span data-logic-label>Показати логіку</span>
+        </button>
+        <a href="#form" class="btn btn--sm">Обговорити проєкт</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 01 · Hero -->
+    <section id="top" class="section hero">
+      <div class="container">
+        <p class="tag">01 · Задача: пояснити, що це і для кого</p>
+
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <h1 class="hero__title">Клієнт вирішує, чи залишитися, ще до того, як дочитає. <span class="accent">Ми проєктуємо цей момент.</span></h1>
+            <p class="hero__lead">Створюємо landing pages для малого та середнього бізнесу: від структури і текстів до дизайну та запуску. Кожен блок має задачу, кожна задача веде до заявки.</p>
+            <div class="hero__actions">
+              <a href="#form" class="btn btn--lg">Обговорити проєкт <span aria-hidden="true">→</span></a>
+              <a href="#anatomy" class="link">Подивитися, як це працює ↓</a>
+            </div>
+          </div>
+
+          <!-- «Рентген» сторінки -->
+          <div class="xray" aria-hidden="true">
+            <div class="xray__dots"><span></span><span></span><span></span></div>
+            <div class="xray__body">
+              <div class="xray__block">
+                <span class="xray__label">01 · що · для кого · дія</span>
+                <div class="bar bar--ink" style="width: 82%"></div>
+                <div class="bar bar--ink" style="width: 58%; margin-top: 8px"></div>
+                <div class="bar bar--muted" style="width: 70%; margin-top: 16px"></div>
+                <div class="bar bar--muted" style="width: 52%; margin-top: 6px"></div>
+                <div class="bar bar--accent"></div>
+              </div>
+              <div class="xray__block">
+                <span class="xray__label">02 · клієнт впізнає себе</span>
+                <div class="xray__cards"><div></div><div></div><div></div></div>
+              </div>
+              <div class="xray__block">
+                <span class="xray__label">03 · докази · заперечення</span>
+                <div class="bar bar--muted" style="width: 64%"></div>
+                <div class="bar bar--muted" style="width: 46%; margin-top: 6px"></div>
+              </div>
+              <div class="xray__block xray__block--solid">
+                <span class="xray__label">04 · заявка</span>
+                <div class="xray__input"></div>
+                <div class="xray__submit"></div>
+              </div>
+              <div class="xray__scan"></div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Перший екран відповідає на три питання: що це, для кого, що робити далі. Праворуч — сама сторінка під «рентгеном»: метод видно ще до першого скролу.</span>
+          <span class="logic-note__next">→ Далі: клієнт має впізнати свою проблему</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 02 · Problem -->
+    <section id="problem" class="section section--dark">
+      <div class="container">
+        <p class="tag">02 · Задача: назвати проблему</p>
+        <h2 class="h2">Гарний сайт, який мовчить</h2>
+
+        <div class="symptoms">
+          <article class="symptom">
+            <span class="symptom__n">симптом 01</span>
+            <h3 class="symptom__title">Відвідувачі приходять і йдуть</h3>
+            <p class="symptom__text">Сторінка не відповідає на головне питання: «чому саме ви?»</p>
+          </article>
+          <article class="symptom">
+            <span class="symptom__n">симптом 02</span>
+            <h3 class="symptom__title">Про продукт розказано все, крім користі</h3>
+            <p class="symptom__text">Характеристики є, а причини купити немає.</p>
+          </article>
+          <article class="symptom">
+            <span class="symptom__n">симптом 03</span>
+            <h3 class="symptom__title">Кнопка є, заявок немає</h3>
+            <p class="symptom__text">Між інтересом і дією забагато тертя.</p>
+          </article>
+        </div>
+
+        <p class="problem__punch">Проблема рідко в дизайні. <span class="accent-light">Зазвичай вона в логіці.</span></p>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Людина має впізнати себе раніше, ніж побачить пропозицію. Три симптоми — три дзеркала; фінальний рядок переводить провину з «дизайну» на «логіку».</span>
+          <span class="logic-note__next">→ Далі: показати, як виглядає логіка</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 03 · Anatomy -->
+    <section id="anatomy" class="section">
+      <div class="container">
+        <p class="tag">03 · Задача: показати метод, а не обіцянки</p>
+        <h2 class="h2 h2--tight">Як влаштований лендинг, що працює</h2>
+        <p class="lead">Оберіть блок — і подивіться, яку задачу він виконує.</p>
+
+        <div class="anatomy" data-anatomy>
+          <div class="anatomy__list" role="group" aria-label="Блоки лендингу">
+            <button type="button" class="anatomy__btn is-active" aria-pressed="true" data-index="0"><span class="anatomy__n">01</span><span class="anatomy__name">Перший екран</span><span aria-hidden="true">→</span></button>
+            <button type="button" class="anatomy__btn" aria-pressed="false" data-index="1"><span class="anatomy__n">02</span><span class="anatomy__name">Проблема</span><span aria-hidden="true">→</span></button>
+            <button type="button" class="anatomy__btn" aria-pressed="false" data-index="2"><span class="anatomy__n">03</span><span class="anatomy__name">Рішення</span><span aria-hidden="true">→</span></button>
+            <button type="button" class="anatomy__btn" aria-pressed="false" data-index="3"><span class="anatomy__n">04</span><span class="anatomy__name">Докази</span><span aria-hidden="true">→</span></button>
+            <button type="button" class="anatomy__btn" aria-pressed="false" data-index="4"><span class="anatomy__n">05</span><span class="anatomy__name">Заперечення</span><span aria-hidden="true">→</span></button>
+            <button type="button" class="anatomy__btn" aria-pressed="false" data-index="5"><span class="anatomy__n">06</span><span class="anatomy__name">Дія</span><span aria-hidden="true">→</span></button>
+          </div>
+
+          <div class="anatomy__panel" aria-live="polite">
+            <div class="anatomy__content">
+              <span class="anatomy__counter">блок <span data-anatomy-n>01</span> / 06</span>
+              <h3 class="anatomy__title" data-anatomy-title>Перший екран</h3>
+              <p class="anatomy__text" data-anatomy-text>Відповідає на три питання: що це, для кого, що робити далі.</p>
+            </div>
+            <div class="anatomy__progress" aria-hidden="true">
+              <span class="is-on"></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          <a href="#form" class="btn btn--lg">Хочу такий лендинг для свого бізнесу <span aria-hidden="true">→</span></a>
+        </div>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Ключовий блок. Замість обіцянок — інтерактивне пояснення методу. Клієнт сам клікає і сам робить висновок, що студія розуміє, як працює сторінка.</span>
+          <span class="logic-note__next">→ Далі: зробити послугу конкретною</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 04 · Deliverables -->
+    <section class="section section--bordered">
+      <div class="container">
+        <p class="tag">04 · Задача: зробити послугу конкретною</p>
+        <h2 class="h2">Не «сайт під ключ». Ось що саме.</h2>
+
+        <ul class="deliverables">
+          <li><span class="deliverables__n">01</span><span>Структура сторінки під вашу аудиторію і продукт</span></li>
+          <li><span class="deliverables__n">02</span><span>Тексти, що пояснюють цінність простою мовою</span></li>
+          <li><span class="deliverables__n">03</span><span>Дизайн в єдиній візуальній системі</span></li>
+          <li><span class="deliverables__n">04</span><span>Адаптивна верстка для мобільних і десктопу</span></li>
+          <li><span class="deliverables__n">05</span><span>Налаштована форма заявок</span></li>
+          <li><span class="deliverables__n">06</span><span>Базова підготовка до аналітики і реклами</span></li>
+        </ul>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">«Під ключ» нічого не пояснює. Шість конкретних пунктів дають клієнту відчуття, за що саме він платить.</span>
+          <span class="logic-note__next">→ Далі: зняти страх невідомого</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 05 · Process -->
+    <section id="process" class="section section--paper">
+      <div class="container">
+        <p class="tag">05 · Задача: зняти страх невідомого</p>
+        <h2 class="h2">Чотири кроки від ідеї до запуску</h2>
+
+        <ol class="steps">
+          <li class="step step--first">
+            <span class="step__n">01</span>
+            <h3 class="step__title">Розбір</h3>
+            <p class="step__text">Короткий дзвінок: продукт, аудиторія, цілі.</p>
+          </li>
+          <li class="step">
+            <span class="step__n">02</span>
+            <h3 class="step__title">Структура і тексти</h3>
+            <p class="step__text">Узгоджуємо логіку сторінки до того, як малювати.</p>
+          </li>
+          <li class="step">
+            <span class="step__n">03</span>
+            <h3 class="step__title">Дизайн</h3>
+            <p class="step__text">Візуал будується на погодженій структурі, а не навпаки.</p>
+          </li>
+          <li class="step">
+            <span class="step__n">04</span>
+            <h3 class="step__title">Запуск</h3>
+            <p class="step__text">Верстка, перевірка, публікація.</p>
+          </li>
+        </ol>
+
+        <p class="quote">На кожному етапі ви бачите результат і погоджуєте його, перш ніж ми рухаємося далі.</p>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Невідомість — головний стоп-фактор. Чотири кроки і погодження на кожному з них показують, що клієнт контролює процес.</span>
+          <span class="logic-note__next">→ Далі: показати результат</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 06 · Works -->
+    <section id="works" class="section">
+      <div class="container">
+        <p class="tag">06 · Задача: показати результат візуально</p>
+        <h2 class="h2">Як це виглядає в реальності</h2>
+
+        <!-- TODO: замінити заглушки на реальні проєкти (картинки — у assets/images/works/) -->
+        <div class="works">
+          <article class="work">
+            <div class="work__media work__media--placeholder">[Скріншот реального проєкту]</div>
+            <div class="work__meta">
+              <h3 class="work__title">[Назва проєкту]</h3>
+              <span class="work__kind">задача → рішення</span>
+            </div>
+          </article>
+          <article class="work">
+            <div class="work__media work__media--placeholder">[Скріншот реального проєкту]</div>
+            <div class="work__meta">
+              <h3 class="work__title">[Назва проєкту]</h3>
+              <span class="work__kind">до / після</span>
+            </div>
+          </article>
+          <article class="work">
+            <div class="work__media work__media--placeholder">[Скріншот концепту]</div>
+            <div class="work__meta">
+              <h3 class="work__title">[Назва концепту]</h3>
+              <span class="work__badge">Концепт</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="cta-row">
+          <a href="#form" class="btn btn--lg">Обговорити мій проєкт <span aria-hidden="true">→</span></a>
+        </div>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Лише реальні проєкти або чесно позначені концепти. Кожен кейс подано як «задача → рішення», з тією ж логікою, що й ця сторінка.</span>
+          <span class="logic-note__next">→ Далі: допомогти клієнту впізнати, чи це для нього</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 07 · For whom -->
+    <section class="section section--bordered">
+      <div class="container">
+        <p class="tag">07 · Задача: сегментувати і підсилити довіру через чесність</p>
+
+        <div class="fit">
+          <div class="fit__card fit__card--yes">
+            <h2 class="fit__title">Підійде, якщо ви:</h2>
+            <ul class="fit__list">
+              <li><svg class="fit__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>запускаєте продукт або послугу і потрібно швидко почати залучати клієнтів</span></li>
+              <li><svg class="fit__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>маєте сайт, який не приносить заявок</span></li>
+              <li><svg class="fit__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>хочете окрему сторінку під рекламну кампанію</span></li>
+            </ul>
+          </div>
+          <div class="fit__card fit__card--no">
+            <h2 class="fit__title">Не підійде, якщо потрібен:</h2>
+            <ul class="fit__list">
+              <li><svg class="fit__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg><span>великий інтернет-магазин із каталогом</span></li>
+              <li><svg class="fit__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg><span>найдешевший варіант «аби був»</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Чесне «не для вас» підсилює довіру до «для вас». Нецільові клієнти відсіюються до заявки.</span>
+          <span class="logic-note__next">→ Далі: прибрати питання ціни</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 08 · Pricing -->
+    <section class="section section--dark section--compact">
+      <div class="container">
+        <p class="tag">08 · Задача: прибрати головне невідоме</p>
+
+        <div class="pricing">
+          <h2 class="h2 h2--flush">Прозоро з першого дня</h2>
+          <div class="pricing__item">
+            <span class="pricing__label">вартість</span>
+            <span class="pricing__value">від <span class="accent-light">[ціна]</span></span>
+          </div>
+          <div class="pricing__item">
+            <span class="pricing__label">термін</span>
+            <span class="pricing__value">від <span class="accent-light">[термін]</span></span>
+          </div>
+        </div>
+        <p class="pricing__note">Точна оцінка буде після короткого розбору задачі.</p>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">«Скільки коштує?» — питання, через яке найчастіше йдуть без заявки. Орієнтир «від» знімає страх, точна ціна лишається за розбором.</span>
+          <span class="logic-note__next">→ Далі: закрити решту сумнівів</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 09 · FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="faq">
+          <div class="faq__head">
+            <p class="tag">09 · Задача: закрити заперечення</p>
+            <h2 class="h2 h2--flush">Питання, які ставлять до старту</h2>
+          </div>
+          <div class="faq__list">
+            <details class="faq__item">
+              <summary>Чи потрібно мені готувати тексти самому?<span class="faq__plus" aria-hidden="true">+</span></summary>
+              <p>[Відповідь за умовами студії]</p>
+            </details>
+            <details class="faq__item">
+              <summary>Що, якщо в мене немає фото і логотипу?<span class="faq__plus" aria-hidden="true">+</span></summary>
+              <p>[Відповідь за умовами студії]</p>
+            </details>
+            <details class="faq__item">
+              <summary>Чи зможу я редагувати сайт після запуску?<span class="faq__plus" aria-hidden="true">+</span></summary>
+              <p>[Відповідь за умовами студії]</p>
+            </details>
+            <details class="faq__item">
+              <summary>Скільки правок входить у роботу?<span class="faq__plus" aria-hidden="true">+</span></summary>
+              <p>[Відповідь за умовами студії]</p>
+            </details>
+            <details class="faq__item">
+              <summary>Що потрібно від мене для старту?<span class="faq__plus" aria-hidden="true">+</span></summary>
+              <p>[Відповідь за умовами студії]</p>
+            </details>
+          </div>
+        </div>
+
+        <aside class="logic-note">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Відповіді на сумніви до того, як їх озвучать. Кожне закрите питання — на одну причину відкласти заявку менше.</span>
+          <span class="logic-note__next">→ Далі: дія</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 10 · Form -->
+    <section id="form" class="section section--accent">
+      <div class="container">
+        <div class="lead-form">
+          <div class="lead-form__copy">
+            <p class="tag">10 · Задача: мінімізувати тертя</p>
+            <h2 class="h2 h2--flush">Розкажіть про свій бізнес, а ми запропонуємо структуру сторінки</h2>
+            <p class="lead-form__sub">Три поля, одне з них — необов'язкове.</p>
+          </div>
+
+          <div class="lead-form__card">
+            <!-- TODO: підключити реальний обробник у js/main.js (Formspree, Telegram-бот, власний API) -->
+            <form class="form" data-lead-form novalidate>
+              <div class="field">
+                <label for="f-name">Ім'я</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="f-contact">Контакт <span class="field__hint">— телефон, Telegram або email</span></label>
+                <input id="f-contact" name="contact" type="text" required>
+              </div>
+              <div class="field">
+                <label for="f-about">Коротко про бізнес <span class="field__hint">— необов'язково</span></label>
+                <textarea id="f-about" name="about" rows="3"></textarea>
+              </div>
+              <p class="form__error" data-form-error hidden>Заповніть, будь ласка, ім'я та контакт.</p>
+              <button type="submit" class="btn btn--dark btn--block">Отримати пропозицію <span aria-hidden="true">→</span></button>
+              <p class="form__note">Відповімо протягом [термін]. Без зобов'язань.</p>
+            </form>
+
+            <div class="form-success" data-form-success role="status" hidden>
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="1.5" y="1.5" width="45" height="45"/><path d="M13 25l7 7 15-16"/></svg>
+              <h3 class="form-success__title">Заявку отримано</h3>
+              <p class="form-success__text">Наступний крок: короткий дзвінок, щоб розібрати задачу.</p>
+              <button type="button" class="link-btn" data-form-reset>Надіслати ще одну</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="logic-note logic-note--light">
+          <span class="logic-note__title">ЛОГІКА БЛОКУ</span>
+          <span class="logic-note__text">Мінімум полів, одна кнопка, зрозумілий наступний крок. Обіцянка «запропонуємо структуру» дає цінність уже за саму заявку.</span>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 11 · Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__name">Meta Player Studio</span>
+        <span class="footer__tagline">Landing pages для малого та середнього бізнесу</span>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <span class="footer__label">контакти</span>
+          <span>[email]</span>
+          <span>[телефон / Telegram]</span>
+        </div>
+        <div class="footer__col">
+          <span class="footer__label">соцмережі</span>
+          <span>[посилання]</span>
+        </div>
+        <div class="footer__col">
+          <span class="footer__label">документи</span>
+          <a href="#top">Політика конфіденційності</a>
+          <span>[реквізити]</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
